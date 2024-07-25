@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>遠隔教育機関</title>
+    <!-- 导入框架 -->
+    <link rel="stylesheet" href="./bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+    <style>
+        body {
+            margin: 0;
+        }
+
+        /* 头部的CSS */
+        .header {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* 导航CSS */
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        /* 导航链接 */
+        .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* 链接 - 修改颜色 */
+        .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* 创建三个不相等的列 */
+        .column {
+            float: left;
+            padding: 10px;
+        }
+
+        /* 左右两侧宽度 */
+        .column.side {
+            width: 25%;
+        }
+
+        /* 中间区域宽度 */
+        .column.middle {
+            width: 50%;
+        }
+
+        /* 列后面清除浮动 */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* 响应式布局 - 小于 600 px 时改为上下布局 */
+        @media screen and (max-width: 600px) {
+            .column {
+                width: 100%;
+            }
+        }
+
+        /* ---------------------------------图片CSS(头)----------------------------- */
+        div.img {
+            border: 1px solid #ccc;
+        }
+
+        div.img:hover {
+            border: 1px solid #777;
+        }
+
+        div.img img {
+            width: 100%;
+            height: auto;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .responsive {
+            padding: 0 6px;
+            float: left;
+            width: 24.99999%;
+        }
+
+        @media only screen and (max-width: 700px) {
+            .responsive {
+                width: 49.99999%;
+                margin: 6px 0;
+            }
+        }
+
+        @media only screen and (max-width: 500px) {
+            .responsive {
+                width: 100%;
+            }
+        }
+
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* ---------------------------------图片CSS(尾)----------------------------- */
+
+        /* 底部CSS */
+        .footer {
+            background-color: #f1f1f1;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- 导入框架 -->
+    <script src="./bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+    <!-- 头部 -->
+    <div class="header">
+        <h1>ホーム</h1>
+    </div>
+    <!-- 导航 -->
+    <div class="topnav">
+        <a href="./Home.html">Home</a>
+        <a href="./About Us.html">About Us</a>
+        <a href="./Courses.html">Courses</a>
+        <a href="./Team.html">Team</a>
+        <a href="./Contact Us.html">Contact Us</a>
+    </div>
+
+    <!-- 主体内容 -->
+    <div class="row">
+        <div>
+            <div class="responsive">
+                <div class="img">
+                    <a target="_blank" href="./img/1.png">
+                        <img src="./img/1.png" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc"></div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="img">
+                    <a target="_blank" href="./img/2.png">
+                        <img src="./img/2.png" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc"></div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="img">
+                    <a target="_blank" href="./img/3.jpg">
+                        <img src="./img/3.jpg" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc"></div>
+                </div>
+            </div>
+            <div class="responsive">
+                <div class="img">
+                    <a target="_blank" href="./img/4.jpg">
+                        <img src="./img/4.jpg" alt="Mountains" width="600" height="400">
+                    </a>
+                    <div class="desc"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="column side">
+            <h2>遠隔教育（オンライン授業）、5つのメリットと2つの授業プラン</h2>
+            <p>
+                遠隔教育とは、通学が困難な児童生徒に対して、あるいは学級閉鎖などの非常時において、先生と児童生徒が場所を限定せずにオンライン上でやりとりできる学習の形態です。オンライン授業とも言います。
+                遠隔教育は、児童生徒1人1台にICT端末配備を掲げるGIGAスクール構想がスタートした2019年時点では5カ年計画で進められましたが、2020年の新型コロナウイルスの世界的な感染により、一気に実現しました。その結果、非常時に限らない遠隔教育のさまざまなメリットが、実感をもって注目されるようになったのです。
+                この記事では、不登校の子どもの学びや海外とのコミュニケーションなど、遠隔教育の5つのメリットと2つの授業プランをわかりやすく紹介します。
+            </p>
+        </div>
+        <div class="column middle">
+            <h2>遠隔教育（オンライン授業）とは？【わかりやすく解説】</h2>
+            <p>
+                ここから、遠隔教育の5つのメリットを紹介します。
+
+                メリット①遠隔地の児童・生徒と協働的な学びができる
+                遠隔教育のメリット①は、都市部と地方の教育格差の是正に活用できる点です。
+
+                たとえば、都市と地方、それぞれの地域で暮らす児童・生徒が、オンラインを通じて、協働学習を実施すれば、遠隔教育によって、自分が暮らす生活圏以外の場所で暮らす同年代の子どもたちの多様な意見に触れる機会となり、社会性の育成か期待できます。
+
+                メリット②外国人講師の指導を受けることができる
+                遠隔教育のメリット②は、国境も超えた学びの実現です。
+
+                小学校で英語科目が必修化されるなど、外国語学習の必要性が高まるなか、遠隔教育を活用すれば、外国ともオンランでつながることができます。オンライン上で、海外に暮らす外国人講師と英語でコミュニケーションを取ることは、語学学習にとどまらず、国際感覚の育成やコミュニケーション能力の向上につながることが期待できます。
+
+                メリット③不登校の子どもに対する学習支援
+                遠隔教育のメリット③は、不登校の子どもに対する学習支援です。
+
+                2021年度の小中学生の不登校の児童生徒は、過去最多の24万人を記録しました。
+                不登校の児童生徒は、学習意欲をなくしているとは限りません。むしろ学びへの欲求は強いものの、何らかの事情で学校にいけないケースも少なくありません。遠隔教育は、急増する不登校の児童・生徒に対して、学習機会を提供できる手法として期待されています。
+
+                メリット④病気など療養中の子どもへの学習支援
+                遠隔教育のメリット④は、病気や怪我などにより通学が難しい子どもたちに対する学習支援です。
+
+                遠隔教育で活用する端末に入っているWeb会議システムは、特別な設備は不要。パソコンやスマートフォン・タブレット端末のアプリやソフトから直接接続ができるため、自宅や病室からでも授業に参加することができます。
+
+                メリット⑤非常時の学習支援
+                遠隔教育のメリット⑤は、非常時の学習支援です。
+
+                文部科学省が2021年2月に出した「感染症や災害等の非常時にやむを得ず学校に登校できない児童生徒に対する学習指導について（通知）」では、対面指導が不要な「オンラインを活用した特例の授業」として、「同時双方向型（ライブ配信）」と「オンデマンド型」の併用が認められています。
+
+                やむなく学校が休校した場合でも、通信環境が整っていれば、どこからでも遠隔教育を行うことができます。
+
+                感染症や災害の発生等の非常時にやむを得ず学校に登校できない児童生徒の学習指導について
+            </p>
+        </div>
+        <div class="column side">
+            <h2>遠隔教育では、児童生徒にもITリテラシーが求められます</h2>
+            <p>
+                児童生徒が、自宅でICT機器を使ったオンライン学習を受ける場合は、周囲に教員やクラスメイトがいないため、操作方法でつまずいたときの手助けをしてくれる人材が保護者や兄弟になります。
+                もし遠隔教育で、子どもが操作方法でつまずいたときはどのような対応をすればよいのか、授業前にシミュレーションしておくことも必要です。
+                ICT機器の操作方法やトラブル対応はICT支援員が対応する
+                遠隔教育を行なうためにICT機器の準備や、授業中の機器の操作、トラブルへの対処が大きな負担になります。
+                ICT支援員は、教師が遠隔教育の内容に専念するために、専門的な知識をもとに授業支援を行います。遠隔教育におけるICT支援員の役割としては、次のようなものが挙げられます。
+            </p>
+        </div>
+    </div>
+
+    <!-- 底部区域 -->
+    <div class="footer">
+        <p>66</p>
+    </div>
+</body>
+
+</html>
